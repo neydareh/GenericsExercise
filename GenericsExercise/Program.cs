@@ -15,13 +15,16 @@ namespace GenericsExercise
             // Call the GetEmployeesByAge method
 
             // Complete the TODOs in the StackExercise method
-            // Call the
+            // Call the StackExercise method
+
+            // Complete the TODOs in the QueueExercise method
+            // Call the the QueueExercise method
 
         }
 
         public static void StackExercise()
         {
-            // Creates and initializes a new Stack.
+            // Create and initialize a new Stack object called myStack.
             //TODO Create a Stack collection of type string called myStack
             // Call the push method off of myStack and pass in "Hello,"
             // Call the push method off of myStack and pass in " World"
@@ -41,7 +44,7 @@ namespace GenericsExercise
 
         public static void QueueExercise()
         {
-            // Creates and initializes a new Queue.
+            // Create and initialize a new Queue object called myQ.
             //  Create new Queue of type string named myQ
             //  Call the Enqueue method off of myQ and pass in "Hello,"
             //  Call the Enqueue method off of myQ and pass in " World"
