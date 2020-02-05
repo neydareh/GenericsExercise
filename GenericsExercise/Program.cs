@@ -8,17 +8,24 @@ namespace GenericsExercise
     {
         static void Main(string[] args)
         {
-            // Complete the TODOs in the ListExercise.cs
-            // Call the ProcessToKill method
+            /// Complete the TODOs in the ListExercise.cs
+            // Create List of 3 strings 
+            // Call the static ProcessToKill method, pass in your list of strings
+            
 
             // Complete the TODOs in the DictionaryExercise.cs
-            // Call the GetEmployeesByAge method
+            // Create a List of type Employee
+            // Populate the List
+            // Call the static GetEmployeesByAge method and pass in your list 
+            
 
             // Complete the TODOs in the StackExercise method
             // Call the StackExercise method
+           
 
             // Complete the TODOs in the QueueExercise method
             // Call the the QueueExercise method
+           
 
         }
 
