@@ -32,6 +32,15 @@ namespace GenericsExercise
                 //TODO: add employes to result, 
                 //      the key must contain age and 
                 //      values are names list who have the same age.
+                if (result.ContainsKey(e.Age))
+                {
+                    result[e.Age].Add(e.Name);
+                }
+                else
+                {
+                    result.Add(e.Age, new List<string>()
+                    { e.Name });
+                }
 
             }
             return result;
