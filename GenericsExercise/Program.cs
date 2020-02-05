@@ -26,20 +26,21 @@ namespace GenericsExercise
         {
             // Create and initialize a new Stack object called myStack.
             //TODO Create a Stack collection of type string called myStack
-            // Call the push method off of myStack and pass in "Hello,"
-            // Call the push method off of myStack and pass in " World"
-            // Call the push method off of myStack and pass in "!"
+            Stack<string> myStack = new Stack<string>();
+            myStack.Push("Hello");
+            myStack.Push("World");
+            myStack.Push("!");
 
 
             // Displays the properties and values of the Stack.
             //**Uncomment the lines below**
 
-            //Console.WriteLine("\tCount:    {0}", myStack.Count);
-            //Console.Write("\tValues:");
-            //foreach (var item in myStack)
-            //{
-            //    Console.Write("    {0}", item);
-            //}
+            Console.WriteLine("\tCount:    {0}", myStack.Count);
+            Console.Write("\tValues:");
+            foreach (var item in myStack)
+            {
+                Console.Write("    {0}", item);
+            }
         }
 
         public static void QueueExercise()
