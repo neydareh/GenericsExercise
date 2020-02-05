@@ -46,18 +46,20 @@ namespace GenericsExercise
         public static void QueueExercise()
         {
             // Create and initialize a new Queue object called myQ.
-            //  Create new Queue of type string named myQ
-            //  Call the Enqueue method off of myQ and pass in "Hello,"
-            //  Call the Enqueue method off of myQ and pass in " World"
-            //  Call the Enqueue method off of myQ and pass in "!"
+            Queue<string> myQ = new Queue<string>();
+            myQ.Enqueue("Hello");
+            myQ.Enqueue("World");
+            myQ.Enqueue("!");
 
             // Displays the properties and values of the Queue.
-            //Console.WriteLine("\tCount:    {0}", myQ.Count);
-            //Console.Write("\tValues:");
-            //foreach (var item in myQ)
-            //{
-            //    Console.Write("    {0}", item);
-            //}
+            //**Uncomment the lines below**
+
+            Console.WriteLine("\tCount:    {0}", myQ.Count);
+            Console.Write("\tValues:");
+            foreach (var item in myQ)
+            {
+                Console.Write("    {0}", item);
+            }
         }
     }
 }
