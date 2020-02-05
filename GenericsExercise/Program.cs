@@ -11,24 +11,23 @@ namespace GenericsExercise
             // Complete the TODOs in the ListExercise.cs
             // Create List of 3 strings 
             // Call the static ProcessToKill method, pass in your list of strings
-            //var strings = new List<string>
-            //{ "some string", "something", "games"};
-            //ListExercise.ProcessToKill(strings);
+            var strings = new List<string>
+            { "some string", "something", "games"};
+            ListExercise.ProcessToKill(strings);
 
             // Complete the TODOs in the DictionaryExercise.cs
             // Create a List of type string
             // Call the static GetEmployeesByAge method
-            var employees = new List<DictionaryExercise.Employee>();
-            employees.Add(26, "Nathan");
+            var employees = new List<Employee>();
             DictionaryExercise.GetEmployeesByAge(employees);
 
             // Complete the TODOs in the StackExercise method
             // Call the StackExercise method
-            //StackExercise();
+            StackExercise();
 
             // Complete the TODOs in the QueueExercise method
             // Call the the QueueExercise method
-            //QueueExercise();
+            QueueExercise();
 
         }
 
