@@ -9,7 +9,7 @@ namespace GenericsExercise
         static void Main(string[] args)
         {
             /// Complete the TODOs in the ListExercise.cs
-            // Create List of 3 strings 
+            // Create List that contains 3 strings 
             // Call the static ProcessToKill method, pass in your list of strings
             
 
