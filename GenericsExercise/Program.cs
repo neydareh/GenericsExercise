@@ -11,6 +11,8 @@ namespace GenericsExercise
             /// Complete the TODOs in the ListExercise.cs
             // Create List that contains 3 strings 
             // Call the static ProcessToKill method, pass in your list of strings
+            var processes = new List<string>() { "Runtime.exe", "Explorer.exe", "TaskManager.exe" };
+            ListExercise.ProcessToKill(processes);
             
 
             // Complete the TODOs in the DictionaryExercise.cs
