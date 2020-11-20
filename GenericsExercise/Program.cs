@@ -11,23 +11,44 @@ namespace GenericsExercise
             /// Complete the TODOs in the ListExercise.cs
             // Create List that contains 3 strings 
             // Call the static ProcessToKill method, pass in your list of strings
-            var processes = new List<string>() { "Runtime.exe", "Explorer.exe", "TaskManager.exe" };
+            var processes = new List<string>() { "RuntimeDll.exe", "Explorer.exe", "TaskManager.exe" };
             ListExercise.ProcessToKill(processes);
-            
+
+            Console.WriteLine();
+            Console.WriteLine();
 
             // Complete the TODOs in the DictionaryExercise.cs
             // Create a List of type Employee
+            var employees = new List<Employee>();
             // Populate the List
-            // Call the static GetEmployeesByAge method and pass in your list 
+            employees.Add(new Employee("Shely Bricks", 25));
+            employees.Add(new Employee("Manilla Gates", 25));
+            employees.Add(new Employee("Jackson Stones", 26));
+            employees.Add(new Employee("Jill Sterlings", 30));
+            employees.Add(new Employee("Queen Stevens", 31));
+            employees.Add(new Employee("Parker Houston", 31));
+            // Call the static GetEmployeesByAge method and pass in your list
+            var employeesDict = DictionaryExercise.GetEmployeesByAge(employees);
+
+            foreach (var emp in employeesDict)
+            {
+                Console.Write($"{emp.Key} -> ");
+                foreach (var item in emp.Value)
+                {
+                    Console.Write($"{item}  ");
+                }
+                Console.WriteLine();
+            }
             
+
 
             // Complete the TODOs in the StackExercise method
             // Call the StackExercise method
-           
+
 
             // Complete the TODOs in the QueueExercise method
             // Call the the QueueExercise method
-           
+
 
         }
 
